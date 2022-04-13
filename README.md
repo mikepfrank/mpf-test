@@ -1,9 +1,10 @@
-# GABLE (Garbled Autonomous Bots Leveraging Ethereum)
+# GABLE 
 
-GABLE is a protocol and system for performing secure computation on the 
-Ethereum blockchain, which was developed at Sandia National Laboratories
-in the period 2017-2020. It is described in more detail in the following 
-two publications:
+GABLE (Garbled Autonomous Bots Leveraging Ethereum) is a protocol and 
+system for performing secure computation on the Ethereum blockchain, 
+which was developed at Sandia National Laboratories during the period 
+2017-2020. It is described in more detail in the following two 
+publications:
 
 * M. P. Frank, C. N. Cordi, K. G. Gabert, C. B. Helinski, R. C. Kao, 
 	V. Kolesnikov, A. K. Ladha, and N. D. Pattengale. The GABLE report: 
@@ -29,7 +30,7 @@ mentioned in the conclusion of the conference paper.  The two demos are:
 	appendix of the full version of conference paper (also shown in 
 	Fig. 4-2 in the tech. report).
 		
-	This file includes two contracts, an executor contract and a
+	This file compiles to two contracts, an executor contract and a
 	separate storage contract for the garbled machine data; they 
 	were deployed at the following two Ethereum addresses:
 		
