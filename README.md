@@ -24,7 +24,7 @@ This repository contains Solidity source code for the smart contracts that
 were deployed to the Ethereum mainnet to test two demo applications, as was
 mentioned in the conclusion of the conference paper.  The two demos are:
 
-* **Simplified Supply-Chain Demo.** ([``ExecutableMachine_simple.sol``](ExecutableMachine_simple.sol "ExecutableMachine_simple.sol file"))
+1. **Simplified Supply-Chain Demo.** ([``ExecutableMachine_simple.sol``](ExecutableMachine_simple.sol "ExecutableMachine_simple.sol file"))
 	A simplified 4-state version of the state machine shown in the
 	appendix of the full version of conference paper (also shown in 
 	Fig. 4-2 in the tech. report).
@@ -33,10 +33,10 @@ mentioned in the conclusion of the conference paper.  The two demos are:
 	separate storage contract for the garbled machine data; they 
 	were deployed at the following two Ethereum addresses:
 		
-		- Executor: ``0xc8a54a72f187ec444ed08968901284bbd6d2ec06``.
-		- Storage: ``0x57f1c190982d0a9ecdf7c4703e134d9eaf347de0``.
+	- Executor: ``0xc8a54a72f187ec444ed08968901284bbd6d2ec06``.
+	- Storage: ``0x57f1c190982d0a9ecdf7c4703e134d9eaf347de0``.
 	
-* **Multi-Party Auction Demo.** ([``ExecutableMachine_MPA.sol``](ExecutableMachine_MPA.sol "ExecutableMachine_MPA.sol file"))
+2. **Multi-Party Auction Demo.** ([``ExecutableMachine_MPA.sol``](ExecutableMachine_MPA.sol "ExecutableMachine_MPA.sol file"))
 	A 2-player, 16-bit instance of the multi-party auction example
 	discussed in Fig. 4 of the conference paper (described in more
 	detail in sec. 9.3 of the tech. report).
